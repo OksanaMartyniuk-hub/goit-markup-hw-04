@@ -80,12 +80,12 @@ address {
 .logo:hover,
 .logo:focus {
   color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo {
   padding: 24px 0;
   margin-right: 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ===== Navigation ===== */
@@ -147,7 +147,6 @@ address {
   display: flex;
   align-items: center;
   gap: 40px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-list a {
@@ -165,6 +164,8 @@ address {
 
 .contact-link {
   padding: 24px 0;
+  display: inline-block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts {
@@ -183,7 +184,7 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/hero-bg.jpg");
+    url("../images/hero-bg-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -214,6 +215,7 @@ address {
   min-width: 169px;
   height: 56px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn:hover,
@@ -389,7 +391,7 @@ address {
 
 .footer-logo:hover,
 .footer-logo:focus {
- color: #404bbf;
+  color: #404bbf;
 }
 
 .footer-text {
@@ -402,7 +404,7 @@ address {
 }
 
 .footer-info {
-  margin-right: 120px;
+  margin-right: 0;
 }
 
 .footer-social-media {
@@ -414,7 +416,7 @@ address {
   display: flex;
   justify-content: center;
   gap: 16px;
-  padding-top: 8px;
+  padding-top: 0;
 }
 
 .footer-social-links .link {
@@ -517,7 +519,7 @@ address {
   height: 100%;
 
   background-color: #4d5ae5;
-  color: #fff;
+  color: #f4f4fd;
 
   padding: 40px 32px;
   line-height: 1.5;
